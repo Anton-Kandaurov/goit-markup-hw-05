@@ -61,7 +61,7 @@
         <section class="hero">
             <div class="hero-baner container">
             <h1 class="hero-h1">Ефективні рішення для<br> вашого бізнесу</h1>
-            <button type="button" class="button">Замовити послугу</button>
+            <button type="button" class="button" data-modal-open>Замовити послугу</button>
             </div>
         </section>
     
@@ -134,9 +134,26 @@
       <div class="container">
         <h2 class="work-title">Чим ми займаємося</h2>
         <ul class="work-list">
-            <li><img src="./img/box-1.png" alt="" width="370px" height="294px"></li>
-            <li><img src="./img/box-2.png" alt="" width="370px" height="294px"></li>
-            <li><img src="./img/box-3.png" alt="" width="370px" height="294px"></li>
+            <li>
+              <div class="work-list-wrap">
+                <img src="./img/box-1.png" alt="" width="370px" height="294px">
+                <h3 class="work-kist-text">Десктопні додатки</h3>
+              </div>
+            </li>
+
+            <li>
+              <div class="work-list-wrap">
+              <img src="./img/box-2.png" alt="" width="370px" height="294px">
+              <h3 class="work-kist-text">Мобільні додатки</h3>
+            </div>
+            </li>
+
+            <li>
+              <div class="work-list-wrap">
+              <img src="./img/box-3.png" alt="" width="370px" height="294px">
+              <h3 class="work-kist-text">Дизайнерські рішення</h3>
+            </div>
+            </li>
         </ul>
       </div>
     </section>
@@ -433,5 +450,17 @@
           </div>
       </div>
     </footer>
+    
+
+    <div class="backdrop" data-modal >
+    <div class="modal">
+      <button type="button" class="modal-button" data-modal-close>
+        <svg height="18px" width="18px">
+          <use href="./img/symbol-defs.svg#icon-close-black-18dp-2-1"></use>
+        </svg>
+      </button>
+    </div>
+    </div>
+    <script src="./js/modal.js"></script>
 </body>
 </html>
