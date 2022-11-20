@@ -21,11 +21,21 @@
         
     <a href="" class="header-logo"><span class="header-logo-web">Web</span>Studio</a>
     <nav class="header-navigation">
-
+  
     <ul class="header-nav haader-nav-a">
-        <li><a href="" class="header-nav-li-ac header-nav-li">Студія</a></li> 
-        <li><a href="./portfolio.html"  class="header-nav-li">Портфоліо</a></li>
-        <li><a href="" class="header-nav-li">Контакти</a></li>
+        <li class="header-nav-item">
+          <a href="" class="header-nav-li-ac header-nav-li">Студія</a>
+           <div class="header-line-ac"></div>
+        </li> 
+
+        <li>
+          <a href="./portfolio.html"  class="header-nav-li">Портфоліо</a>
+          <div class="header-line"></div>
+        </li>
+        <li>
+          <a href="" class="header-nav-li">Контакти</a>
+          <div class="header-line"></div>
+        </li>
     </ul>
 
       </nav>
@@ -134,25 +144,19 @@
       <div class="container">
         <h2 class="work-title">Чим ми займаємося</h2>
         <ul class="work-list">
-            <li>
-              <div class="work-list-wrap">
+            <li class="work-list-wrap">
                 <img src="./img/box-1.png" alt="" width="370px" height="294px">
-                <h3 class="work-kist-text">Десктопні додатки</h3>
-              </div>
+                <p class="work-kist-text">Десктопні додатки</p>
             </li>
 
-            <li>
-              <div class="work-list-wrap">
+            <li class="work-list-wrap">
               <img src="./img/box-2.png" alt="" width="370px" height="294px">
-              <h3 class="work-kist-text">Мобільні додатки</h3>
-            </div>
+              <p class="work-kist-text">Мобільні додатки</p>
             </li>
 
-            <li>
-              <div class="work-list-wrap">
+            <li class="work-list-wrap">
               <img src="./img/box-3.png" alt="" width="370px" height="294px">
-              <h3 class="work-kist-text">Дизайнерські рішення</h3>
-            </div>
+              <p class="work-kist-text">Дизайнерські рішення</p>
             </li>
         </ul>
       </div>
@@ -452,8 +456,8 @@
     </footer>
     
 
-    <div class="backdrop" data-modal >
-    <div class="modal">
+    <div class="backdrop is-hidden" data-modal >
+    <div class="modal ">
       <button type="button" class="modal-button" data-modal-close>
         <svg height="18px" width="18px">
           <use href="./img/symbol-defs.svg#icon-close-black-18dp-2-1"></use>
